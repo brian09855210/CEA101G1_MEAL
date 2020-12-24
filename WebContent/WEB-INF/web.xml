@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>CEA101G1</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>    
+  </welcome-file-list>
+  
+  <servlet>
+		<servlet-name>MealServlet</servlet-name>
+		<servlet-class>com.meal.controller.MealServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MealServlet</servlet-name>
+		<url-pattern>/MealServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MealTypeServlet</servlet-name>
+		<servlet-class>com.mealtype.controller.MealTypeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MealTypeServlet</servlet-name>
+		<url-pattern>/MealTypeServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MealOrderDetailServlet</servlet-name>
+		<servlet-class>com.mealorderdetail.controller.MealOrderDetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MealOrderDetailServlet</servlet-name>
+		<url-pattern>/MealOrderDetailServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MealOrderServlet</servlet-name>
+		<servlet-class>com.mealorder.controller.MealOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MealOrderServlet</servlet-name>
+		<url-pattern>/MealOrderServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

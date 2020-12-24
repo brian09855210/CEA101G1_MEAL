@@ -1,0 +1,115 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<div class="page-wrapper">
+            <div id="sidebar" class="sidebar-wrapper">
+                <div class="sidebar-brand">
+                    <img src="<%=request.getContextPath()%>/img/logo_vertical.png" />
+                </div>
+                <div class="sidebar-content">
+                    <div class="sidebar-header">
+                        <div class="user-pic">
+                            <img class="img-responsive img-rounded emp-pic" src="<%=request.getContextPath()%>/img/patrick.jpg" alt="User picture" />
+                        </div>
+                        <div class="user-info">
+                            <span class="emp-name">派大星<span class="emp-title">尖頭</span></span>
+
+                            <span class="user-status"> <i class="fa fa-circle"></i> <span>Online</span> </span>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-menu">
+                        <ul>
+                            <li class="header-menu"><span></span></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-user"></i> <span>個人基本資料</span> </a>
+                            </li>
+                            <li class="header-menu"><span>戴蒙度假村系統</span></li>
+                            <li>
+                                <a href="<%=request.getContextPath()%>/backend/members/memberInfo.jsp">
+                                    <i class="fa fa-users"></i> <span>員工管理</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<%=request.getContextPath()%>/backend/members/memberInfo.jsp">
+                                    <i class="fa fa-users"></i> <span>會員管理</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-file-alt"></i> <span>基本資料管理</span> </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li>
+                                            <a href="<%=request.getContextPath()%>/backend/roomtype/roomTypeInfo.jsp"
+                                                >房型管理</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="<%=request.getContextPath()%>/backend/rooms/roomInfo.jsp"
+                                                >客房管理</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="<%=request.getContextPath()%>/backend/choppers/chopInfo.jsp"
+                                                >空中載具管理</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-bell"></i> <span>前台房務系統</span> </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">入住/退房系統</a></li>
+                                        <li><a href="#">接送確認</a></li>
+                                        <li><a href="#">住客訂單查詢</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-user-tie"></i> <span>商城管理</span> </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">功能 1</a></li>
+                                        <li><a href="#">功能 2</a></li>
+                                        <li><a href="#">功能 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fas fa-utensils"></i> <span>餐飲管理</span> </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="<%=request.getContextPath()%>/backend/meal/mealInfo.jsp">餐點管理</a></li>
+                                        <li><a href="<%=request.getContextPath()%>/backend/mealtype/mealTypeInfo.jsp">餐點種類管理</a></li>
+                                        <li><a href="<%=request.getContextPath()%>/backend/mealorder/mealOrderInfo.jsp">餐點訂單管理</a></li>
+                                          <li><a href="<%=request.getContextPath()%>/backend/mealorderdetail/mealOrderDetailInfo.jsp">訂單細項管理</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fa fa-user-tie"></i> <span>服務管理</span> </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">功能 1</a></li>
+                                        <li><a href="#">功能 2</a></li>
+                                        <li><a href="#">功能 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#"> <i class="fas fa-snowboarding"></i> <span>活動管理</span> </a>
+                                <div class="sidebar-submenu">
+                                    <ul>
+                                        <li><a href="#">功能 1</a></li>
+                                        <li><a href="#">功能 2</a></li>
+                                        <li><a href="#">功能 3</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
